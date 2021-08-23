@@ -1,0 +1,21 @@
+.TitleBarContainer {
+    margin: 30px;
+}
+
+.TitleBar {
+    margin-top: -1px;
+    padding: 0;
+}
+
+.TitleBarSpan {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.TitleBarSmall {
+    width: 80px;
+    margin: 0;
+    padding: 0;
+    border: 2px solid;
+}

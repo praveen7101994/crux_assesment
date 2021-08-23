@@ -1,0 +1,35 @@
+.NewCard {
+  border: 1px solid green;
+}
+
+.NewCardBody {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.NewCardTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background: green;
+  color: white;
+  font-size: 20px;
+}
+
+.NewCardBody {
+  padding: 20px 6px;
+}
+.NewCardBodyItem {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.NewCardBottomLine {
+  width: 20%;
+  margin: 0 auto;
+  border: 2px solid green;
+}

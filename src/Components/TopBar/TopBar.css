@@ -1,0 +1,9 @@
+.TopBar {
+    padding: 12px;
+    background: #f7931d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}

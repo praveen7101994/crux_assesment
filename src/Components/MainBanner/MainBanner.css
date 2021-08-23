@@ -1,0 +1,30 @@
+
+.MainBannerContainer {
+background-image: 
+            linear-gradient(45deg, rgba(
+            145, 146, 122, 0.62), rgba(
+            217, 91, 132, 0.58)), url('./../../bannerBG.png');
+padding: 84px 0 180px 0;
+}
+
+.MainBanner {
+    padding: 0 0 0 30px;
+    width: 70%;
+}
+
+.BannerTitle {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 34px;
+    font-family: sans-serif;
+    color: white;
+    /* margin-top: 80px; */
+}
+
+.BannerSubTitle {
+    font-size: 25px;
+    margin-bottom: 36px;
+    color: white;
+    font-family: sans-serif;
+}

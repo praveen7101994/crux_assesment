@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import MainBanner from './Components/MainBanner/MainBanner';
+import NavBar from './Components/NavBar/NavBar'
+import NewCard from './Components/NewCard/NewCard';
+import TitleBar from './Components/Reusable/TitleBar/TitleBar';
+import TopBar from './Components/TopBar/TopBar'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TopBar title="WELCOME TO INDIA SMART GRID KNOWLEDGE PORTAL" />
+      <NavBar />
+      <MainBanner />
+      <TitleBar borderColor="#3d81c7" />
+      <div className="NewCardContainer">
+        <NewCard/>
+        <NewCard/>
+        <NewCard/>
+      </div>
     </div>
   );
 }
